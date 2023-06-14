@@ -1,8 +1,13 @@
 <!-- Metadata is data about data -->
 <!DOCTYPE html> <!-- Tells computer it is a document that is html-->
 <html> <!-- The container for all other HTML elements-->
-  <head><title>A.R</title></head> <!-- Title of webpage (Tab title)-->
+  <head><title>A.R</title> <!-- Title of webpage (Tab title)-->
+  </head> 
+  <script src="https://aframe.io/releases/1.0.4/aframe.min.js"></script> <!--script - tells is a script. scr - sorce - location of file -->
   <body> <!-- The container for all other HTML elements exept head-->
+    <a-scene> <!-- Create scene (like in unity) -->
+      <a-gltf-model position = "0, 0, -4" rotation = "0, 0, 0" scale="0.2, 0.2, 0.2" src = "Teapot/Teapot.gltf">
+      </a-gltf-model>
     <p>This is the first paragraph</p>
     <p>This is the second paragraph</p>
   </body>
